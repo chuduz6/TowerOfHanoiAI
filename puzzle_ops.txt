@@ -1,0 +1,8 @@
+(operator
+ move
+ (params
+  (<x> Number)(<y> Spot)(<z> Spot))
+ (preconds
+  (on <x> <y>)(clear <z>)(adjacent <y> <z>))
+ (effects
+  (del clear <z>)(del on <x> <y>)(clear <y>)(on <x> <z>)))

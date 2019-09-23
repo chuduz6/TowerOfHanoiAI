@@ -1,0 +1,5 @@
+(s1 Spot) (s2 Spot) (s3 Spot) (s4 Spot) (s5 Spot) (s6 Spot)(s7 Spot) (s8 Spot) (s9 Spot) (num1 Number) (num2 Number) (num3 Number) (num4 Number) (num5 Number) (num6 Number) (num7 Number) 
+(preconds
+(on num1 s1) (on num2 s2) (on num3 s3) (on num4 s4) (on num5 s5) (on num6 s6) (on num7 s7) (clear s8) (clear s9) (adjacent s9 s6) (adjacent s9 s8) (adjacent s8 s5) (adjacent s8 s7) (adjacent s8 s9) (adjacent s7 s4) (adjacent s7 s8) (adjacent s6 s3) (adjacent s6 s5) (adjacent s6 s9)  (adjacent s5 s2) (adjacent s5 s4) (adjacent s5 s6) (adjacent s5 s8)  (adjacent s4 s1) (adjacent s4 s5) (adjacent s4 s7) (adjacent s3 s2) (adjacent s3 s6) (adjacent s2 s1) (adjacent s2 s3) (adjacent s2 s5) (adjacent s1 s2) (adjacent s1 s4))
+(effects
+(on num1 s3) (on num2 s4) (on num3 s5) (on num4 s6) (on num5 s7) (on num6 s8) (on num7 s9))

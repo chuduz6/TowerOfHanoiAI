@@ -1,0 +1,6 @@
+(disk1 Object) (disk2 Object) (disk3 Object) (disk4 Object) (disk5 Object) (A Object) (B Object) (C Object)
+
+(preconds
+(on disk1 disk2) (on disk2 disk3) (on disk3 A) (clear disk1) (clear B) (clear C) (smlr disk1 A) (smlr disk1 B) (smlr disk1 C) (smlr disk2 A) (smlr disk2 B) (smlr disk2 C) (smlr disk3 A) (smlr disk3 B) (smlr disk3 C) (smlr disk4 A) (smlr disk4 B) (smlr disk4 C) (smlr disk5 A) (smlr disk5 B) (smlr disk5 C) (smlr disk1 disk2) (smlr disk1 disk3) (smlr disk1 disk4) (smlr disk1 disk5) (smlr disk2 disk3) (smlr disk2 disk4) (smlr disk2 disk5) (smlr disk3 disk4) (smlr disk3 disk5) (smlr disk4 disk5))
+(effects
+(on disk1 disk2) (on disk2 disk3)  (on disk3 B))
